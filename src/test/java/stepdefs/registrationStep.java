@@ -28,12 +28,6 @@ public class registrationStep {
         driver.get("http://blueskycitadel.com/test-form-for-bluesky-automation-training/");
 
     }
-        //System.setProperty("webdriver.gecko.driver", "D:\\Blueskycitadel\\firefox\\geckodriver.exe");
-//    @And("^I click on register link$")
-//    public void iClickOnRegisterLink() {
-//        driver.findElement(By.id(""))
-
-
     @When("^I fill in the registration details$")
     public void i_fill_in_the_registration_details() throws Throwable {
       registration.FirstName();
